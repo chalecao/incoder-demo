@@ -1,0 +1,7 @@
+fastapi==0.74.*
+requests==2.27.*
+torch==1.11.*
+uvicorn[standard]==0.17.*
+tokenizers==0.12.1
+git+https://github.com/huggingface/transformers.git@b18dfd95e1f60ae65a959a7b255fc06522170d1b
+google-cloud-logging

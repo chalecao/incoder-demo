@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+#console-log {
+    position: absolute;
+    bottom: 0;
+    background: #efefef;
+    width: 100%;
+    padding: 20px 10px 10px;
+    max-height: 100px;
+    overflow: scroll;
+}
+
+#console-log::before {
+    content: 'console:';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    background: #cccccc;
+}
+
+.error-div {
+    color: red;
+}
